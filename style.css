@@ -66,6 +66,7 @@ body {
 .circle {
   background-color: white;
   color: var(--text-color);
+  cursor: pointer;
   border-radius: 50%;
   height: 25px;
   width: 25px;
@@ -105,4 +106,5 @@ body {
 .btn:disabled {
   background-color: var(--lowlight-color);
   color: var(--border-line-empty);
+  cursor: default;
 }

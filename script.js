@@ -5,6 +5,11 @@ const circles = document.querySelectorAll('.circle');
 
 let currentActive = 1;
 
+circles.forEach((circle, index) => circle.addEventListener('click', () => {
+  currentActive = index + 1;
+  update();
+}))
+
 next.addEventListener('click', () => {
   currentActive++;
 
